@@ -1,0 +1,77 @@
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  
+}
+
+.container{
+  box-sizing: border-box;
+  align-self: center;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+.form{
+  background-color:lightgray;
+  padding: 3rem;
+  
+}
+.input, label{
+  display: block;
+  padding: 0.5rem;
+}
+.input{
+  width: 95%;
+  border: none;
+}
+
+.btn1{
+  margin: 1rem;
+  padding: 1rem;
+  width: 100px;
+  background-color:red;
+  color: #fff;
+  border: none;
+}
+.bookmark{
+text-align: start;
+font-size: 2rem;
+}
+hr{
+  margin-bottom: 1rem;
+}
+.foot{
+  width: 75%;
+}
+.form p{
+  font-size: 2rem;
+}
+footer p{
+  text-align: start;
+  margin-left: 160px;
+}
+.btn2, .btn3{
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 70px;
+  background-color:lightgrey;
+  color: red;
+  border: none;
+}
+a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+h3{
+  text-transform: uppercase;
+}
+
+/* media quries */
+@media(max-width:500px){
+  footer{
+    
+    margin-inline-start: 0.5rem;
+  }
+}
